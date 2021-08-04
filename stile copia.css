@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&family=Satisfy&family=Style+Script&family=Tangerine&family=WindSong&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/snow.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Poller One', cursive;
+    font-weight: normal;
+    font-size: 6rem;
+    margin-top: 7rem;
+    color: purple;
+}
+
+.header {
+    font-family: 'Poller One', cursive;
+    padding: 0 45px;
+    background-color: #283593;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+}
+
+.nav a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.hero {
+    background-color: transparent;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-inner {
+    max-width: 760px;
+  }
+  
+  .hero h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.18rem;
+    line-height: 1.6;
+  }
+  
+  .button {
+    background-color: #3949ab;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+    display: inline-block;
+  }
+
+
+.contoallarovescia-contenitore {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+}
+
+.testo-grande {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin: 0.5rem 0.5rem;
+}
+
+.contoallarovescia-el {
+    text-align: center;
+}
+
+.contoallarovescia-el span {
+    font-size: 0.5rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #999;
+    font-size: .9rem;
+}
+
